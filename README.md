@@ -25,7 +25,7 @@
    git push
    ```
 
-部署成功后，网页打开 https://bupt-mmai.github.io（可能需要等几分钟博客新增的内容才刷新出来）
+部署成功后，网页打开 [https://bupt-mmai.github.io](https://bupt-mmai.github.io)（可能需要等几分钟博客新增的内容才刷新出来）
 
 ## hexo模版及配置
 
