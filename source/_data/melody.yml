@@ -2,18 +2,17 @@
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# theme_color:
-#   enable: true
-#   main: "#49B1F5"
-#   paginator: "#00C4B6"
-#   button_hover: "#FF7242"
-#   text_selection: "#00C4B6"
-#   link_color: "#858585"
-#   hr_color: "#A4D8FA"
-#   tag_start_color: "#A4D8FA"
-#   tag_end_color: "#1B9EF3"
-#   header_text_color: "#EEEEEE"
-#   footer_text_color: "#EEEEEE"
+theme_color:
+  enable: true # or false -> to use the default theme
+  main: "#87CEEB"
+  paginator: "#000"
+  button_hover: "#49B1F5"
+  text_selection: "#000"
+  link_color: "#000"
+  hr_color: "#000"
+  meta_color: "#000"
+  header_text_color: "#000" # v1.7.0+
+  footer_text_color: "#000" # v1.7.0+
 
 # Main menu navigation
 menu:
@@ -80,7 +79,7 @@ mathjax:
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/third-party-support.html#katex
 # ---------------
 katex:
-  enable: false
+  enable: true
   cdn:
     css: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
   hide_scrollbar: true
@@ -119,7 +118,7 @@ scripts:
 cdn:
   css:
     fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-    # fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
+    fontawesomeV5: https://use.fontawesome.com/releases/v5.3.1/css/all.css
   js:
     anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
     jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
@@ -146,7 +145,7 @@ wordcount:
 
 toc:
   enable: true
-  # number: true
+  number: true
 
 post_copyright:
   enable: true
@@ -154,9 +153,9 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 # Please see doc for more details: https://molunerfinn.com/hexo-theme-melody-doc/theme-config.html#auto-excerpt
-# auto_excerpt:
-#   enable: false
-#   length: 150
+auto_excerpt:
+  enable: false
+  length: 150
 
 # slide
 # For reveal.js config, see https://github.com/hakimel/reveal.js#configuration
