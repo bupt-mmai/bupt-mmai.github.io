@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>BUPT-MMAI</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://bupt-mmai.github.io/"/>
+  <updated>2020-06-29T15:51:37.269Z</updated>
+  <id>https://bupt-mmai.github.io/</id>
+  
+  <author>
+    <name>BUPT-MMAI</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://bupt-mmai.github.io/2020/06/29/test/"/>
+    <id>https://bupt-mmai.github.io/2020/06/29/test/</id>
+    <published>2020-06-29T09:46:09.000Z</published>
+    <updated>2020-06-29T15:51:37.269Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一个测试。。。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这是一个测试。。。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="https://bupt-mmai.github.io/categories/hello/"/>
+    
+    
+      <category term="test" scheme="https://bupt-mmai.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bupt-mmai.github.io/2020/03/07/hello-world/"/>
+    <id>https://bupt-mmai.github.io/2020/03/07/hello-world/</id>
+    <published>2020-03-07T08:20:10.000Z</published>
+    <updated>2020-06-29T15:51:37.269Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里是BUPT-MMAI！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这里是BUPT-MMAI！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="hello" scheme="https://bupt-mmai.github.io/categories/hello/"/>
+    
+    
+      <category term="test" scheme="https://bupt-mmai.github.io/tags/test/"/>
+    
+  </entry>
+  
+</feed>
